@@ -96,6 +96,20 @@ export const navItems: INavData[] = [
       }
     ]
   },
+
+  {
+    name: 'Users',
+    url: '/users',
+    icon: 'icon-puzzle',
+    children: [
+      {
+        name: 'List of users',
+        url: '/users/users',
+        icon: 'icon-puzzle'
+      }
+    ]
+  },
+
   {
     name: 'Buttons',
     url: '/buttons',
