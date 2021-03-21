@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { CardsComponent } from './cards.component';
+import { CreateUsersComponent } from './createUsers.component';
+import { UpdateUsersComponent } from './updateUsers.component';
 import { FormsComponent } from './forms.component';
 import { SwitchesComponent } from './switches.component';
 import { TablesComponent } from './tables.component';
@@ -59,6 +61,22 @@ const routes: Routes = [
         component: TablesComponent,
         data: {
           title: 'Users'
+        }
+      },
+
+      {
+        path: 'create-user',
+        component: CreateUsersComponent,
+        data: {
+          title: 'Create User'
+        }
+      },
+
+      {
+        path: 'update-user',
+        component: UpdateUsersComponent,
+        data: {
+          title: 'Update User'
         }
       },
 

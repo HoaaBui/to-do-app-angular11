@@ -5,6 +5,9 @@ import { NgModule } from '@angular/core';
 
 import { CardsComponent } from './cards.component';
 
+import { CreateUsersComponent } from './createUsers.component';
+import { UpdateUsersComponent } from './updateUsers.component';
+
 // Forms Component
 import { FormsComponent } from './forms.component';
 
@@ -64,6 +67,8 @@ import { BaseRoutingModule } from './base-routing.module';
   ],
   declarations: [
     CardsComponent,
+    CreateUsersComponent,
+    UpdateUsersComponent,
     FormsComponent,
     SwitchesComponent,
     TablesComponent,
