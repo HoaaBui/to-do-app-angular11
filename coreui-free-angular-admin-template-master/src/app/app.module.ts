@@ -43,6 +43,10 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts';
 
+// Import getting API
+import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -59,6 +63,8 @@ import { ChartsModule } from 'ng2-charts';
     ChartsModule,
     IconModule,
     IconSetModule.forRoot(),
+    HttpClientModule,
+    FormsModule,
   ],
   declarations: [
     AppComponent,

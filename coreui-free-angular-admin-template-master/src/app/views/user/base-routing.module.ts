@@ -65,7 +65,7 @@ const routes: Routes = [
       },
 
       {
-        path: 'create-user',
+        path: 'users/create-user',
         component: CreateUsersComponent,
         data: {
           title: 'Create User'
@@ -73,7 +73,7 @@ const routes: Routes = [
       },
 
       {
-        path: 'update-user',
+        path: 'users/update-user/:id',
         component: UpdateUsersComponent,
         data: {
           title: 'Update User'
